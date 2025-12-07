@@ -17,10 +17,12 @@ Ou acesse o site oficial do Kind para mais informações: [Kind](https://kind.si
  * 1 control-plane;
  * 2 workers.
  para criar o cluster com use o manifesto do dia-01 **kind-cluster.yml** 
- ```kind create cluster --name descomplicando --config dia-01/kind/kind-cluster.yml```
- Obtendo a seguinte mensagem:
- ![Alt Imagem saída do terminal ao criar cluster](assets\kind-create-cluster.png)
+ ```kind create cluster --name descomplicando --config dia-01/kind/kind-cluster.yml```  
+ 
+ Obtendo a seguinte mensagem:  
+ ![Alt Imagem saída do terminal ao criar cluster](https://github.com/Brunohfc/Descomplicando_k8s/blob/day-01/assets/kind-create-cluster.png)
 
- Após a criação, verifique os nós via ```kubectl get nodes```.
- Obtendo a seguinte saída:
- ![Alt Imagem saída do terminal ao verificar nós](assets\kubectl-get-nodes.png)
+ Após a criação, verifique os nós via ```kubectl get nodes```.  
+ 
+ Obtendo a seguinte saída:  
+ ![Alt Imagem saída do terminal ao verificar nós](https://github.com/Brunohfc/Descomplicando_k8s/blob/day-01/assets/kubectl-get-nodes.png)
